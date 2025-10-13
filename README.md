@@ -68,8 +68,9 @@ docker run -p 9000:9000 -p 9001:9001 --name minio \
   "UsePathStyleEndpoint": true
 }
 ```
-4. Make sure S3 signing + endpoint code compatible with MinIO
-example : http://localhost:9000/{bucket}/{key}
+4. Make sure S3 signing + endpoint code compatible with MinIO.
+ 
+For example : http://localhost:9000/{bucket}/{key}
 
 
 
@@ -83,9 +84,5 @@ dotnet add package FluentFTP
 
 Note: install FileZilla server .
 
-
-
-DatabaseDesign 
-![System Diagram](https://app.eraser.io/workspace/ZFcEE7OeZoiC8oAGKfyp?origin=share)
 
 
