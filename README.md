@@ -39,3 +39,53 @@ dotnet ef migrations add NameYourMigrationHere --project BlobStorage.Providers.S
 
 # Apply the migrations to create the database and tables
 dotnet ef database update --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api
+```
+
+## 🗄️ Run MinIO (recommended: Docker)
+
+```bash
+docker run -p 9000:9000 -p 9001:9001 --name minio \
+  -e "MINIO_ROOT_USER=setyouradminusername" \
+  -e "MINIO_ROOT_PASSWORD=setyouradminpass" \
+  -v /tmp/minio-data:/data \
+  -d minio/minio server /data --console-address ":9001"
+```
+
+
+
+
+### Note: create bucket
+
+3. Configure your app to use MinIO
+
+```bash
+"S3": {
+  "Endpoint": "yourminioendpoint",    // MinIO endpoint (HTTP) for example :http://localhost:9000
+  "Bucket": "setbucketname",
+  "AccessKey": "setadminusername",
+  "SecretKey": "setadminpass",
+  "Region": "us-east-1",
+  "UsePathStyleEndpoint": true
+}
+```
+4. Make sure S3 signing + endpoint code compatible with MinIO
+example : http://localhost:9000/{bucket}/{key}
+
+
+
+## 🗄️ Configure App using FTP 
+
+install fluentftp package 
+
+```bash
+dotnet add package FluentFTP
+```
+
+Note: install FileZilla server .
+
+
+
+DatabaseDesign 
+![System Diagram](https://app.eraser.io/workspace/ZFcEE7OeZoiC8oAGKfyp?origin=share)
+
+
