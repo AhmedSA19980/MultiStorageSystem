@@ -26,11 +26,6 @@ namespace BlobStorage.Providers.S3.AWS.Operations
             ) {
 
         
-            //var host = $"{bucket}.s3.{region}.amazonaws.com";
-            //var  host = "localhost:9000";// // for Minio
-            //var endpoint = $"https://{host}/{objectKey}";
-            //  var endpoint = $"http://{host}/{bucket}/{objectKey}"; // for Minio
-
 
             var service = "s3";
             var uri = new Uri(endpoint);
