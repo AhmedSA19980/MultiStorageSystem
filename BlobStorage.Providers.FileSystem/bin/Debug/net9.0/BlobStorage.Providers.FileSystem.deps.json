@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BlobStorage.Providers.FileSystem/1.0.0": {
+        "dependencies": {
+          "BlobStorage.Core": "1.0.0"
+        },
+        "runtime": {
+          "BlobStorage.Providers.FileSystem.dll": {}
+        }
+      },
+      "BlobStorage.Core/1.0.0": {
+        "runtime": {
+          "BlobStorage.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlobStorage.Providers.FileSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlobStorage.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

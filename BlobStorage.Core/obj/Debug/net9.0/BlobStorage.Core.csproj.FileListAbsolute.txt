@@ -1,0 +1,11 @@
+D:\BlobStorage\BlobStorage.Core\bin\Debug\net9.0\BlobStorage.Core.deps.json
+D:\BlobStorage\BlobStorage.Core\bin\Debug\net9.0\BlobStorage.Core.dll
+D:\BlobStorage\BlobStorage.Core\bin\Debug\net9.0\BlobStorage.Core.pdb
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\BlobStorage.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\BlobStorage.Core.AssemblyInfoInputs.cache
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\BlobStorage.Core.AssemblyInfo.cs
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\BlobStorage.Core.csproj.CoreCompileInputs.cache
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\BlobStorage.Core.dll
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\refint\BlobStorage.Core.dll
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\BlobStorage.Core.pdb
+D:\BlobStorage\BlobStorage.Core\obj\Debug\net9.0\ref\BlobStorage.Core.dll

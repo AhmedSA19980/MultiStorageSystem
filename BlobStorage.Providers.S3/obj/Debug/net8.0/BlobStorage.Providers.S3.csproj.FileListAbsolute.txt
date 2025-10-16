@@ -1,0 +1,15 @@
+D:\BlobStorage\BlobStorage.Providers.S3\bin\Debug\net8.0\BlobStorage.Providers.S3.deps.json
+D:\BlobStorage\BlobStorage.Providers.S3\bin\Debug\net8.0\BlobStorage.Providers.S3.dll
+D:\BlobStorage\BlobStorage.Providers.S3\bin\Debug\net8.0\BlobStorage.Providers.S3.pdb
+D:\BlobStorage\BlobStorage.Providers.S3\bin\Debug\net8.0\BlobStorage.Core.dll
+D:\BlobStorage\BlobStorage.Providers.S3\bin\Debug\net8.0\BlobStorage.Core.pdb
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.csproj.AssemblyReference.cache
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.AssemblyInfoInputs.cache
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.AssemblyInfo.cs
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.csproj.CoreCompileInputs.cache
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStor.0B8C050D.Up2Date
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.dll
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\refint\BlobStorage.Providers.S3.dll
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\BlobStorage.Providers.S3.pdb
+D:\BlobStorage\BlobStorage.Providers.S3\obj\Debug\net8.0\ref\BlobStorage.Providers.S3.dll

@@ -1,0 +1,15 @@
+D:\BlobStorage\BlobStorage.Providers.FTP\bin\Debug\net8.0\BlobStorage.Providers.FTP.deps.json
+D:\BlobStorage\BlobStorage.Providers.FTP\bin\Debug\net8.0\BlobStorage.Providers.FTP.dll
+D:\BlobStorage\BlobStorage.Providers.FTP\bin\Debug\net8.0\BlobStorage.Providers.FTP.pdb
+D:\BlobStorage\BlobStorage.Providers.FTP\bin\Debug\net8.0\BlobStorage.Core.dll
+D:\BlobStorage\BlobStorage.Providers.FTP\bin\Debug\net8.0\BlobStorage.Core.pdb
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.csproj.AssemblyReference.cache
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.AssemblyInfoInputs.cache
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.AssemblyInfo.cs
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.csproj.CoreCompileInputs.cache
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStor.52D1A673.Up2Date
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.dll
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\refint\BlobStorage.Providers.FTP.dll
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\BlobStorage.Providers.FTP.pdb
+D:\BlobStorage\BlobStorage.Providers.FTP\obj\Debug\net8.0\ref\BlobStorage.Providers.FTP.dll

@@ -1,0 +1,5 @@
+D:\BlobStorage\BlobStorage.Service\obj\Debug\net9.0\BlobStorage.Service.csproj.AssemblyReference.cache
+D:\BlobStorage\BlobStorage.Service\obj\Debug\net9.0\BlobStorage.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlobStorage\BlobStorage.Service\obj\Debug\net9.0\BlobStorage.Service.AssemblyInfoInputs.cache
+D:\BlobStorage\BlobStorage.Service\obj\Debug\net9.0\BlobStorage.Service.AssemblyInfo.cs
+D:\BlobStorage\BlobStorage.Service\obj\Debug\net9.0\BlobStorage.Service.csproj.CoreCompileInputs.cache

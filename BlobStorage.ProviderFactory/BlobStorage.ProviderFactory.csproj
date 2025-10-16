@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlobStorage.Core\BlobStorage.Core.csproj" />
+    <ProjectReference Include="..\BlobStorage.Providers.S3\BlobStorage.Providers.S3.csproj" />
+    <ProjectReference Include="..\BlobStorage.Providers.Sql\BlobStorage.Providers.Sql.csproj" />
+  </ItemGroup>
+
+</Project>

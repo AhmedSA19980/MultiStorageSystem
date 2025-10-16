@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BlobStorageSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB93E777-F596-4F49-B972-78911A263BC6}|BlobStorage.Service\\BlobStorage.Service.csproj|d:\\blobstoragesystem\\blobstorage.service\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB93E777-F596-4F49-B972-78911A263BC6}|BlobStorage.Service\\BlobStorage.Service.csproj|solutionrelative:blobstorage.service\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DF404A-B473-47DE-8846-E5DF8AD4B48E}|BlobStorage.Core\\BlobStorage.Core.csproj|d:\\blobstoragesystem\\blobstorage.core\\interfaces\\iupdateablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DF404A-B473-47DE-8846-E5DF8AD4B48E}|BlobStorage.Core\\BlobStorage.Core.csproj|solutionrelative:blobstorage.core\\interfaces\\iupdateablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "D:\\BlobStorageSystem\\BlobStorage.Service\\BlobService.cs",
+              "RelativeDocumentMoniker": "BlobStorage.Service\\BlobService.cs",
+              "ToolTip": "D:\\BlobStorageSystem\\BlobStorage.Service\\BlobService.cs",
+              "RelativeToolTip": "BlobStorage.Service\\BlobService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:19:43.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUpdateableRepository.cs",
+              "DocumentMoniker": "D:\\BlobStorageSystem\\BlobStorage.Core\\Interfaces\\IUpdateableRepository.cs",
+              "RelativeDocumentMoniker": "BlobStorage.Core\\Interfaces\\IUpdateableRepository.cs",
+              "ToolTip": "D:\\BlobStorageSystem\\BlobStorage.Core\\Interfaces\\IUpdateableRepository.cs",
+              "RelativeToolTip": "BlobStorage.Core\\Interfaces\\IUpdateableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:19:09.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
