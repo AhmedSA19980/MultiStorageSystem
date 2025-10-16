@@ -5,10 +5,24 @@ This project implements a simple yet extensible Object Storage System that unifi
 It allows developers to interact with various storage services—such as cloud-based, database, or local file systems—without needing to change their application logic.
 
 Supported Storage Backends
-* Amazon S3–Compatible Storage Service: (Using MinIO for local S3 emulation)
+* Amazon S3–Compatible Storage Service
+
+  - Implemented using MinIO for local S3 emulation.
+  - Important: Interacts directly via HTTP requests only — no S3 SDKs or libraries are used.
+  - Supports storing and retrieving files by manually implementing S3 protocol requests (PUT, GET, DELETE, etc.).
+
 * Database Table: Store and retrieve binary data directly from a database as well as store Metadata , and User.
 * Local File System: Save and access files on the host machine.
-* FTP (Optional): For remote file storage via traditional file transfer protocol.
+* FTP: For remote file storage via traditional file transfer protocol.
+
+
+## Architecture Overview
+
+![MultiStoreSystem Architecture](docs/Pluggable_Blob_Storage_System.png)
+
+
+![MultiStoreSystem Architecture](docs/TablesDesign.png)
+
 
 
 
@@ -112,7 +126,7 @@ dotnet ef database update "migragionname" --project BlobStorage.Providers.Sql --
 
 
 
-## 🗄️ Run MinIO (recommended: Docker)
+## 🗄️ Run MinIO + (Docker)
 
 ```bash
 docker run -p 9000:9000 -p 9001:9001 --name minio \
@@ -127,8 +141,9 @@ docker run -p 9000:9000 -p 9001:9001 --name minio \
 
 ### Note: create bucket
 
-3. Configure your app to use MinIO
-4. user policy must set to [readwrite]
+- Configure your app to use MinIO. make your configuration based on yours OS. 
+
+-  user policy must set to [readwrite]
 
 ```bash
 "S3": {
