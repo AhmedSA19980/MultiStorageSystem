@@ -28,6 +28,15 @@ Supported Storage Backends
 
 
 
+first set your configuration on BlobStorage.Api/appsettings.json 
+- save changes
+run ```bash dotnet clean```
+ 
+run ```bash dotnet build```
+
+then make sure you current database address by run : ```bash dotnet ef dbcontext info  --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api ```
+
+
 
 ## 🗄️ Database Migration Commands
 
