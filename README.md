@@ -29,12 +29,72 @@ Supported Storage Backends
 
 
 first set your configuration on BlobStorage.Api/appsettings.json 
-- save changes
-run ```bash dotnet clean```
- 
-run ```bash dotnet build```
 
-then make sure you current database address by run : ```bash dotnet ef dbcontext info  --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api ```
+```bash
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": ""
+  },
+  "Jwt": {
+    "Key": "",
+    "Issuer": "https://localhost:7042/api",// swagger address by default
+    "Audience": "https://localhost:7042/api/Data/data",
+    "AccessTokenExpirationMinutes": 15, // Ensure this is a positive integer
+    "RefreshTokenExpirationDays": 7
+  },
+  "Storage": {
+    "Provider": "Sql", // Options: "Sql", "LocalStorage", "S3", "FTP"
+    "LocalStorage": {
+      "BasePath": "D:\\BlobContainer"
+    },
+    "S3": {
+      "endpoint": "", // MinIO endpoint 
+      "Bucket": "",
+      "AccessKey": "",
+      "SecretKey": "",
+      "Region": "us-east-1",
+      "UsePathStyleEndpoint": true
+    },
+    "FTP": {
+      "Host": "",
+      "Port": 21,
+      "Username": "",
+      "Password": "",
+      "BasePath": "/"
+    },
+
+    "Sql": {
+      "SqlServer": "" // you set value of DefaultConnection here, using same databse
+    }
+
+
+  }
+ }
+```
+
+- save changes
+  
+run 
+```bash 
+dotnet clean
+```
+ 
+run 
+```bash 
+dotnet build
+```
+
+then make sure you current database address by run : 
+```bash
+dotnet ef dbcontext info  --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api
+```
 
 
 
@@ -47,8 +107,10 @@ Use the following commands to create and apply migrations for the SQL Server dat
 dotnet ef migrations add NameYourMigrationHere --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api --context AppDbContext
 
 # Apply the migrations to create the database and tables
-dotnet ef database update --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api
+dotnet ef database update "migragionname" --project BlobStorage.Providers.Sql --startup-project BlobStorage.Api
 ```
+
+
 
 ## 🗄️ Run MinIO (recommended: Docker)
 
@@ -66,6 +128,7 @@ docker run -p 9000:9000 -p 9001:9001 --name minio \
 ### Note: create bucket
 
 3. Configure your app to use MinIO
+4. user policy must set to [readwrite]
 
 ```bash
 "S3": {
@@ -84,14 +147,9 @@ For example : http://localhost:9000/{bucket}/{key}
 
 
 ## 🗄️ Configure App using FTP 
+For FTP server administeration make sure your server listeners set to = Expilict FTP over TSL and insecure palin text 
 
-install fluentftp package 
-
-```bash
-dotnet add package FluentFTP
-```
-
-Note: install FileZilla server .
+Note: install FileZilla server !
 
 
 
