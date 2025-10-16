@@ -30,7 +30,7 @@ Supported Storage Backends
 
 | Category            | Technologies Used |
 |----------------------|-------------------|
-| **Backend**          | C#, .NET Core, RESTful API |
+| **Backend**          | C#, .NET Core, RESTful API(Swagger) |
 | **Authentication**   | JWT (JSON Web Tokens) |
 | **Database**         | SQL Server, Entity Framework Core |
 | **Object Storage**   | MinIO (S3-compatible) via Docker |
