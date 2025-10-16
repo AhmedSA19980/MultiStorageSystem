@@ -164,7 +164,12 @@ For example : http://localhost:9000/{bucket}/{key}
 ## 🗄️ Configure App using FTP 
 For FTP server administeration make sure your server listeners set to = Expilict FTP over TSL and insecure palin text 
 
+
+
 Note: install FileZilla server !
+
+
+* Do not forget to add [Bearer token] in authorization field!.   
 
 
 
